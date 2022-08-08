@@ -58,7 +58,7 @@ def get_bot_response():
         emoji_last = random.choice(se8)
     elif emoji_value >= -0.28 and emoji_value < -0.14:
         emoji_last = random.choice(se9)
-    elif emoji_value < 0.28:
+    elif emoji_value < -0.28:
         emoji_last = random.choice(se10)
 
     extractor = ConllExtractor()
